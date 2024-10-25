@@ -1,0 +1,22 @@
+Exercicio 7:
+package fazcode.projeto1;
+import java.util.Scanner;
+public class Projeto1 {
+    public static void main(String[] args) {
+        boolean V, F;
+        Scanner teclado = new Scanner(System.in);
+        
+        System.out.println("Digite o 1º valor booleano: ");
+        V = teclado.nextBoolean();
+        
+        System.out.println("Digite o 2º valor booleano: ");
+        F = teclado.nextBoolean();
+        
+        if(V == true && F == true){
+            System.out.println("Ambos os valores booleanos são Verdadeiro");
+        }
+        else{
+            System.out.println("Os valores booleanos são diferentes");
+        }
+    }
+}
