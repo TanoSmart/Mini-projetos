@@ -1,0 +1,21 @@
+Exercicio 2:
+package fazcode.projeto1;
+import java.util.Scanner;
+
+public class projeto3 {
+
+    public static void main(String[] args) {
+        int n;
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.println("Digite o valor de n: ");
+        n = teclado.nextInt();
+
+        if (n%2 == 0) {
+            System.out.println("o número "+ n +" é par");
+        }
+        else {
+            System.out.println("o número "+ n +" é ímpar");
+        }
+    }
+}
