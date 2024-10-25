@@ -1,0 +1,26 @@
+Exercicio 3:
+package fazcode.projeto1;
+import java.util.Scanner;
+
+public class projeto3 {
+
+    public static void main(String[] args) {
+        int A, B, C;
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.println("Digite o valor de A: ");
+        A = teclado.nextInt();
+
+        System.out.println("Digite o valor de B: ");
+        B = teclado.nextInt();
+        
+        if (A == B) {
+            C = A + B;
+            System.out.println("A soma é: "+ C);
+        }
+        else {
+            C = A * B;
+            System.out.println("A multiplicação é: "+ C);
+        }
+    }
+}
