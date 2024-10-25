@@ -1,0 +1,21 @@
+Exercicio 4:
+package fazcode.projeto1;
+import java.util.Scanner;
+
+public class projeto3 {
+
+    public static void main(String[] args) {
+        int n, ant, suc;
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.println("Digite o valor de A: ");
+        n = teclado.nextInt();
+
+        ant = n - 1;
+        suc = n + 1;
+        
+        System.out.println("O antecessor de " + n + " é: " + ant);
+        System.out.println("O sucessor de " + n + " é: " + suc);
+
+    }
+}
