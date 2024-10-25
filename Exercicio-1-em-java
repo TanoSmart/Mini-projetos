@@ -1,0 +1,25 @@
+Exercicio 1:
+package fazcode.projeto1;
+import java.util.Scanner;
+
+public class projeto3 {
+
+    public static void main(String[] args) {
+        float n, m, d, soma = 0;
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.println("Digite o valor de n: ");
+        n = teclado.nextFloat();
+        System.out.println("Digite o valor de n: ");
+        m = teclado.nextFloat();
+        System.out.println("Digite o valor de n: ");
+        d = teclado.nextFloat();
+
+        soma = n + m;
+        System.out.println("A soma de " + n + " e " + m + " é igual a: " + soma);
+        
+        if (soma < d) {
+            System.out.println("A soma de " + n + " e " + m + " é menor de: " + d);
+        }
+    }
+}
