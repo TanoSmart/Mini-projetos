@@ -1,0 +1,23 @@
+Exercício 10:
+package fazcode.projeto1;
+import java.util.Scanner;
+
+public class Projeto1 {
+    public static void main(String[] args) {
+        int n1, n2, n3, media;
+        Scanner teclado = new Scanner(System.in);
+        
+        System.out.println("Digite a primeira nota: ");
+        n1 = teclado.nextInt();
+        
+        System.out.println("Digite a segunda nota: ");
+        n2 = teclado.nextInt();
+        
+        System.out.println("Digite a terceira nota: ");
+        n3 = teclado.nextInt();
+        
+        media = (n1 + n2 + n3)/ 3;
+        
+        System.out.println("A média do aluno é: "+media);
+    }
+}
