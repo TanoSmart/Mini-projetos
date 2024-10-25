@@ -1,0 +1,18 @@
+Exercicio 5:
+package fazcode.projeto1;
+import java.util.Scanner;
+
+public class projeto3 {
+
+    public static void main(String[] args) {
+        float Smin, QS, Salario = 100000;
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.println("Digite o valor do salário mínimo: ");
+        Smin = teclado.nextInt();
+
+        QS = Smin / Salario;
+        
+        System.out.println("O usuário tem " + QS+ "Salários mínimos");
+    }
+}
