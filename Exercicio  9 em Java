@@ -1,0 +1,38 @@
+Exercicio  9:
+
+package fazcode.projeto1;
+import java.util.Scanner;
+
+public class Projeto1 {
+    public static void main(String[] args) {
+        float h, peso, imc;
+        Scanner teclado = new Scanner(System.in);
+        
+        System.out.println("Digite a sua altura: ");
+        h = teclado.nextFloat();
+        
+        System.out.println("Digite o seu peso: ");
+        peso = teclado.nextFloat();
+        
+        imc = peso/(h*h);
+        
+        if(imc <= 18.5){
+            System.out.println("O resultado é: "+imc+" abaixo do peso");
+        }
+        else if (imc > 18.5 && imc <= 24.9){
+            System.out.println("O resultado é: "+imc+" peso ideal");
+        }
+        else if (imc > 24.9 && imc <= 29.9){
+            System.out.println("O resultado é: "+imc+" levimente acima do peso");
+        }
+        else if(imc > 29.9 && imc <= 34.9) {
+            System.out.println("O resultado é: "+imc+" obsidade grau 1º");
+        }
+        else if(imc > 34.9 && imc <= 39.9) {
+            System.out.println("O resultado é: "+imc+" obsidade grau 2º");
+        }
+        else {
+            System.out.println("O resultado é: "+imc+" obsidade grau 3º");
+        }
+    }
+}
