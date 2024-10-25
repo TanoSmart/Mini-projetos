@@ -1,0 +1,17 @@
+Exercicio 6:
+package fazcode.projeto1;
+import java.util.Scanner;
+
+public class projeto3 {
+
+    public static void main(String[] args) {
+        float n, r;
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.println("Digite um valor: ");
+        n = teclado.nextInt();
+
+        r = n - ((n * 5) / 100);
+        System.out.println("O valor é: " + r);
+    }
+}
